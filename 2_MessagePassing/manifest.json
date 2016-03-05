@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Message Passing Example",
+  "description": "This extension passes information from its script running in the background to a script running on a webpage.",
+  "version": "1",
+  "content_scripts": [
+  {
+    "matches": [
+      "<all_urls>"
+    ],
+    "js": ["content.js"]
+  }
+],
+  "browser_action": {
+  "default_icon": "icon.png"
+    },
+    "background": {
+      "scripts": ["background.js"]
+    }
+}

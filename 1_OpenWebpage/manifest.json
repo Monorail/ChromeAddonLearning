@@ -1,6 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Open Google",
+  "description": "This extension uses the action button to launch google.com in a new tab.",
   "version": "1",
   "browser_action": {
   "default_icon": "icon.png"
