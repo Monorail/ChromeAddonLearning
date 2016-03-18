@@ -1,7 +1,7 @@
 {
 	"manifest_version" : 2,
-	"name" : "Message Passing Example",
-	"description" : "This extension passes information about the currently active tab from the background script to the page script (content.js).",
+	"name" : "Active Tab Info Example",
+	"description" : "Grabs info about the current tab.",
 	"version" : "1",
 	"content_scripts" : [{
 			"matches" : [
