@@ -1,6 +1,6 @@
 chrome.browserAction.onClicked.addListener(function(tab) {
     // https://api.twitch.tv/kraken/streams/amazhs
-    var channels = ['amazhs', "nl_kripp", "reckful"];
+    var channels = ['amazhs'];
     for(i = 0; i < channels.length; ++i){
         var xmlhttp = new XMLHttpRequest()
         var url = 'https://api.twitch.tv/kraken/channels/'+channels[i];

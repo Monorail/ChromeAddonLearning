@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Twitch API",
-  "description": "This extension performs twitch API calls.",
+  "name": "Twitch JSON Parser",
+  "description": "This extension parses JSON obtained from twitch API calls.",
   "version": "1",
   "browser_action": {
   "default_icon": "icon.png"
