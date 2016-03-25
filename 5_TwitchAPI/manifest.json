@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "REST",
+  "description": "This extension performs testful restful commands.",
+  "version": "1",
+  "browser_action": {
+  "default_icon": "icon.png"
+},
+	"content_scripts" : [{
+			"matches" : [
+				"<all_urls>"
+			],
+			"js"     : ["jquery-2.2.1.min.js"]
+		}
+	],
+"background": {
+  "scripts": ["background.js"]
+}
+}
