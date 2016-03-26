@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Per Tab Action",
-  "description": "This extension redirect all pages on twitch.tv to day[9]'s channel.",
+  "description": "This extension redirects all open pages to twitch.tv",
   "version": "1",
   "browser_action": {
   "default_icon": "icon.png"
