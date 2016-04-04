@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Twitch API",
+  "description": "This extension performs twitch API calls.",
+  "version": "1",
+  "browser_action": {
+  "default_icon": "icon.png"
+},
+"permissions": [
+    "https://api.twitch.tv/*"
+  ],
+"background": {
+  "scripts": ["jquery-2.2.1.min.js", "background.js"]
+}
+}
