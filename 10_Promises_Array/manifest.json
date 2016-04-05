@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Promises",
-  "description": "This extension performs example js promise code.",
+  "name": "Promise Array",
+  "description": "This extension performs example promise array code.",
   "version": "1",
   "browser_action": {
   "default_icon": "icon.png"
