@@ -4,16 +4,13 @@ chrome.browserAction.onClicked.addListener(function(tab) {
         console.log("arr");
 
     var hsurl = "https://api.twitch.tv/kraken/channels/amazhs"
-    var payload = {
-      "topic" : "js",
-      "q" : "Promise"
-    };
+    var payload = {"topic" : "js","q" : "Promise"};
     var i = 0;
     var arr = [];
     var callback = {
       success : function(data){
         console.log(1, "success", JSON.parse(data));
-        arr.push(JSON.parse(data));
+        arr.push("hello");
         // i = i + 1
       },
       error : function(data){

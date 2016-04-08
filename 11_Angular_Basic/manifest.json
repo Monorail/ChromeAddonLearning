@@ -1,0 +1,11 @@
+{
+	"manifest_version": 2,
+	"name": "Angular Basic",
+	"description": "Create a basic angular page",
+    "app": {
+        "background": {
+          "scripts": ["angular.min.js", "controllers.js",  "background.js"]
+        }
+    },
+	"version": "1"
+}
