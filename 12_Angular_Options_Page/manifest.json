@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+	"name": "Settings Page Angular Example",
+	"description": "Creates a settings menu with angularjs controls.",
+	"options_ui": {
+        "page": "options.html",
+        "chrome_style": true
+    },
+	"version": "1",
+    "permissions": [
+       "storage"
+    ]
+}
