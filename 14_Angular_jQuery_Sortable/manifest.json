@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "Angular sortable",
+	"description": "Creates a settings menu with an example of the angular sortable package in use.",
+	"options_ui": {
+        "page": "options.html",
+        "chrome_style": true
+    },
+   "browser_action":{
+      "default_icon":"icon.png"
+   },
+	"version": "1",
+    "permissions": [
+      "tabs",
+       "storage"
+    ],
+   "background":{
+      "scripts":[
+        "background.js"
+      ]
+   }
+}

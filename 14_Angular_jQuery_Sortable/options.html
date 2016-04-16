@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="sortable-test.css" />
+
+</head>
+
+<body>
+<div ng-app="sortableApp" ng-controller="sortableController" class="container">
+  <h2>ui.sortable event order</h2>
+
+  <div class="floatleft">
+    <ul ui-sortable="sortableOptions" ng-model="list" class="list">
+      <li ng-repeat="item in list" class="item">
+        {{item.text}}
+      </li>
+    </ul>
+  </div>
+
+  <div class="floatleft" style="margin-left: 20px;">
+    <ul class="list logList">
+      <li ng-repeat="entry in sortingLog track by $index" class="logItem">
+        {{entry}}
+      </li> 
+    </ul>
+  </div>
+  
+  <div class="clear"></div>
+
+  <script src="jquery-2.2.1.min.js"></script>
+  <script src="jquery-ui.min.js"></script>
+  <script src="angular.js"></script>
+  <script src="sortable.js"></script>
+  <script src="options.js"></script>
+</div>
+
+</body>
+</html>
